@@ -1,0 +1,63 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Press+Start+2P&display=swap');
+h2{
+  color: #bf95c7;
+  margin-left: 42%;
+  margin-top: 12%;
+  font-family: 'Montserrat', sans-serif;
+  font-size: 350%;
+}
+
+#myInput{
+  margin-bottom: 3px;
+  border: 1px solid #bf95c7;
+  font-size: 32px;
+  margin-left: 2%;
+  width: 90%;
+}
+
+.addBtn:hover{
+  background-color: #678bbe;
+}
+
+.addBtn {
+  background-color: #bf95c7;
+  font-size: 28px;
+  font-family: 'Montserrat', sans-serif;
+  width: 7%;
+  padding: 5px 0px 5px 0px;
+  border: 0;
+  color: white;
+}
+
+ul li {
+  list-style-type: none;
+  cursor: pointer;
+  transition: 0.2s;
+  position: relative;
+  font-size: 35px;
+  padding: 5px;
+  user-select: none;
+  margin-bottom: 3px;
+  border: 1px solid #bf95c7;
+  color: #bf95c7;
+  font-family: 'Montserrat', sans-serif;
+}
+
+ul li:hover {
+  background: #bf95c7;
+  color: white;
+}
+
+
+
+.close {
+  position: absolute;
+  right: 0;
+  top: 0;
+  color: #bf95c7;
+  width: 3%;
+}
+
+.close:hover {
+  color: white;
+}
